@@ -1,0 +1,54 @@
+{
+  "results": {
+    "routing": {
+      "passed": 48,
+      "total": 48,
+      "score": 1.0,
+      "gate": 0.9
+    },
+    "metric": {
+      "passed": 30,
+      "total": 30,
+      "score": 1.0,
+      "gate": 0.9
+    },
+    "retrieval": {
+      "passed": 20,
+      "total": 20,
+      "score": 1.0,
+      "gate": 0.9
+    },
+    "guard": {
+      "passed": 30,
+      "total": 30,
+      "score": 1.0,
+      "gate": 1.0
+    }
+  },
+  "holdout": {
+    "routing": {
+      "passed": 19,
+      "total": 20,
+      "score": 0.95
+    },
+    "metric": {
+      "passed": 10,
+      "total": 13,
+      "score": 0.7692307692307693
+    },
+    "retrieval": {
+      "passed": 7,
+      "total": 8,
+      "score": 0.875
+    }
+  },
+  "failures": [],
+  "holdout_failures": [
+    "metric   h02: expected late_rate_by_month, got peak_share | Did delays peak around Black Friday?",
+    "metric   h05: expected review_impact, got late_rate_by_region | How unhappy are customers whose order came late?",
+    "metric   h10: expected seller_concentration, got seller_handoff | Do a few sellers cause most of the late handoffs?",
+    "routing  h13: expected docs, got data | How long do sellers have to hand a parcel to the carrier?",
+    "retrieval h17: expected policies/seller_handling_policy.md \u00a7 Late handoff definition, got ['findings.md \u00a7 Caveats', 'data_dictionary.md \u00a7 fct_order_items (112,650 rows, one per item)', 'data_dictionary.md \u00a7 fct_orders (99,441 rows, one per order)'] | What counts as a late handoff for orders with several items?"
+  ],
+  "passed": true
+}

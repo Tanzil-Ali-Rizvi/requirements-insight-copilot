@@ -1,0 +1,17 @@
+[project]
+name = "requirements-insight-copilot"
+version = "1.0.0"
+description = "Business analysis of late deliveries plus a copilot that answers from requirements documents and data."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]

@@ -1,0 +1,22 @@
+# Held-out questions, written after the copilot was tuned on cases.yaml and never used for tuning.
+# Reported separately so the headline score is not inflated by tuning.
+- {id: h01, q: "What percentage of parcels missed their delivery date?", route: data, metric: late_rate_overall}
+- {id: h02, q: "Did delays peak around Black Friday?", route: data, metric: late_rate_by_month}
+- {id: h03, q: "Are customers in the North waiting longer than promised?", route: data, metric: late_rate_by_region}
+- {id: h04, q: "Is Rio de Janeiro one of the worst states for delays?", route: data, metric: late_rate_by_state}
+- {id: h05, q: "How unhappy are customers whose order came late?", route: data, metric: review_impact}
+- {id: h06, q: "Does dispatching after the deadline make delivery late?", route: data, metric: seller_handoff}
+- {id: h07, q: "Do long-distance shipments arrive late more often?", route: data, metric: interstate}
+- {id: h08, q: "Is the delay coming from carriers or from sellers?", route: data, metric: stage_durations}
+- {id: h09, q: "What is the financial impact of late deliveries?", route: data, metric: late_gmv}
+- {id: h10, q: "Do a few sellers cause most of the late handoffs?", route: data, metric: seller_concentration}
+- {id: h11, q: "Are we promising delivery dates that are too long?", route: data, metric: estimate_padding}
+- {id: h12, q: "Is furniture delivered late more than other products?", route: data, metric: late_rate_by_category}
+- {id: h13, q: "How long do sellers have to hand a parcel to the carrier?", route: docs, doc: policies/seller_handling_policy.md, section: Handoff SLA}
+- {id: h14, q: "Who is accountable for the peak capacity plan?", route: docs, doc: BRD.md, section: 5. Stakeholders (RACI)}
+- {id: h15, q: "What does the BRD say about conversion risk from longer promises?", route: docs, doc: BRD.md, section: 11. Risks}
+- {id: h16, q: "How often is the delivery estimate model retrained?", route: docs, doc: policies/delivery_promise_policy.md}
+- {id: h17, q: "What counts as a late handoff for orders with several items?", route: docs, doc: policies/seller_handling_policy.md, section: Late handoff definition}
+- {id: h18, q: "What is the acceptance criterion for the seller scorecard?", route: docs, doc: user_stories.md, section: US-04 Seller handoff scorecard and watchlist (FR-02)}
+- {id: h19, q: "Which peak seasons does logistics plan carrier capacity for?", route: docs, doc: policies/delivery_promise_policy.md, section: Peak seasons}
+- {id: h20, q: "Are we on track against the review score objective?", route: both, metric: review_impact, doc: BRD.md}

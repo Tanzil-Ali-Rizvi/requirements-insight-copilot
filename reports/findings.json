@@ -1,0 +1,673 @@
+{
+  "late_rate_overall": {
+    "title": "Overall late-delivery rate",
+    "summary": "6,534 of 96,470 delivered orders arrived after the promised date: a late rate of 6.8%.",
+    "rows": [
+      {
+        "delivered_orders": 96470,
+        "late_orders": 6534.0,
+        "late_rate": 0.0677309008
+      }
+    ]
+  },
+  "late_rate_by_month": {
+    "title": "Late rate by purchase month",
+    "summary": "Late deliveries spike in peak months. Worst months by late rate: Mar 2018 (19.0%), Feb 2018 (14.1%), Nov 2017 (12.4%).",
+    "rows": [
+      {
+        "purchase_month": "2016-09-01T00:00:00.000",
+        "delivered_orders": 1,
+        "late_rate": 1.0
+      },
+      {
+        "purchase_month": "2016-10-01T00:00:00.000",
+        "delivered_orders": 265,
+        "late_rate": 0.0075471698
+      },
+      {
+        "purchase_month": "2016-12-01T00:00:00.000",
+        "delivered_orders": 1,
+        "late_rate": 0.0
+      },
+      {
+        "purchase_month": "2017-01-01T00:00:00.000",
+        "delivered_orders": 750,
+        "late_rate": 0.0293333333
+      },
+      {
+        "purchase_month": "2017-02-01T00:00:00.000",
+        "delivered_orders": 1653,
+        "late_rate": 0.0296430732
+      },
+      {
+        "purchase_month": "2017-03-01T00:00:00.000",
+        "delivered_orders": 2546,
+        "late_rate": 0.0455616654
+      },
+      {
+        "purchase_month": "2017-04-01T00:00:00.000",
+        "delivered_orders": 2303,
+        "late_rate": 0.0655666522
+      },
+      {
+        "purchase_month": "2017-05-01T00:00:00.000",
+        "delivered_orders": 3545,
+        "late_rate": 0.0299012694
+      },
+      {
+        "purchase_month": "2017-06-01T00:00:00.000",
+        "delivered_orders": 3135,
+        "late_rate": 0.0303030303
+      },
+      {
+        "purchase_month": "2017-07-01T00:00:00.000",
+        "delivered_orders": 3872,
+        "late_rate": 0.027892562
+      },
+      {
+        "purchase_month": "2017-08-01T00:00:00.000",
+        "delivered_orders": 4193,
+        "late_rate": 0.0290961126
+      },
+      {
+        "purchase_month": "2017-09-01T00:00:00.000",
+        "delivered_orders": 4150,
+        "late_rate": 0.0438554217
+      },
+      {
+        "purchase_month": "2017-10-01T00:00:00.000",
+        "delivered_orders": 4478,
+        "late_rate": 0.0417597142
+      },
+      {
+        "purchase_month": "2017-11-01T00:00:00.000",
+        "delivered_orders": 7288,
+        "late_rate": 0.124039517
+      },
+      {
+        "purchase_month": "2017-12-01T00:00:00.000",
+        "delivered_orders": 5513,
+        "late_rate": 0.0745510611
+      },
+      {
+        "purchase_month": "2018-01-01T00:00:00.000",
+        "delivered_orders": 7069,
+        "late_rate": 0.057009478
+      },
+      {
+        "purchase_month": "2018-02-01T00:00:00.000",
+        "delivered_orders": 6555,
+        "late_rate": 0.141266209
+      },
+      {
+        "purchase_month": "2018-03-01T00:00:00.000",
+        "delivered_orders": 7003,
+        "late_rate": 0.1896330144
+      },
+      {
+        "purchase_month": "2018-04-01T00:00:00.000",
+        "delivered_orders": 6798,
+        "late_rate": 0.0450132392
+      },
+      {
+        "purchase_month": "2018-05-01T00:00:00.000",
+        "delivered_orders": 6749,
+        "late_rate": 0.065639354
+      },
+      {
+        "purchase_month": "2018-06-01T00:00:00.000",
+        "delivered_orders": 6096,
+        "late_rate": 0.0116469816
+      },
+      {
+        "purchase_month": "2018-07-01T00:00:00.000",
+        "delivered_orders": 6156,
+        "late_rate": 0.0337881741
+      },
+      {
+        "purchase_month": "2018-08-01T00:00:00.000",
+        "delivered_orders": 6351,
+        "late_rate": 0.0618800189
+      }
+    ]
+  },
+  "late_rate_by_region": {
+    "title": "Late rate by customer region",
+    "summary": "Northeast customers get the most late orders (12.7%), versus 5.9% in the South.",
+    "rows": [
+      {
+        "customer_region": "Northeast",
+        "delivered_orders": 9044,
+        "late_rate": 0.1271561256,
+        "avg_promised_days": 31.2852720035,
+        "avg_actual_days": 20.004694641
+      },
+      {
+        "customer_region": "North",
+        "delivered_orders": 1796,
+        "late_rate": 0.0857461024,
+        "avg_promised_days": 38.1497772829,
+        "avg_actual_days": 22.5913604306
+      },
+      {
+        "customer_region": "Center-West",
+        "delivered_orders": 5624,
+        "late_rate": 0.0652560455,
+        "avg_promised_days": 27.2871621622,
+        "avg_actual_days": 15.0176179469
+      },
+      {
+        "customer_region": "Southeast",
+        "delivered_orders": 66193,
+        "late_rate": 0.0611545027,
+        "avg_promised_days": 22.2460834227,
+        "avg_actual_days": 10.7513697319
+      },
+      {
+        "customer_region": "South",
+        "delivered_orders": 13813,
+        "late_rate": 0.0590023891,
+        "avg_promised_days": 27.0599435315,
+        "avg_actual_days": 14.0318359516
+      }
+    ]
+  },
+  "late_rate_by_state": {
+    "title": "Late rate by customer state",
+    "summary": "States with the highest late rate (min. 500 orders): MA 17.4%, CE 13.8%, BA 12.2%.",
+    "rows": [
+      {
+        "customer_state": "MA",
+        "delivered_orders": 717,
+        "late_rate": 0.1743375174
+      },
+      {
+        "customer_state": "CE",
+        "delivered_orders": 1279,
+        "late_rate": 0.1376075059
+      },
+      {
+        "customer_state": "BA",
+        "delivered_orders": 3256,
+        "late_rate": 0.1216216216
+      },
+      {
+        "customer_state": "RJ",
+        "delivered_orders": 12350,
+        "late_rate": 0.1210526316
+      },
+      {
+        "customer_state": "PA",
+        "delivered_orders": 946,
+        "late_rate": 0.11205074
+      },
+      {
+        "customer_state": "ES",
+        "delivered_orders": 1995,
+        "late_rate": 0.1072681704
+      },
+      {
+        "customer_state": "PB",
+        "delivered_orders": 517,
+        "late_rate": 0.1044487427
+      },
+      {
+        "customer_state": "MS",
+        "delivered_orders": 701,
+        "late_rate": 0.0970042796
+      },
+      {
+        "customer_state": "PE",
+        "delivered_orders": 1593,
+        "late_rate": 0.0960451977
+      },
+      {
+        "customer_state": "SC",
+        "delivered_orders": 3546,
+        "late_rate": 0.0820642978
+      },
+      {
+        "customer_state": "GO",
+        "delivered_orders": 1957,
+        "late_rate": 0.065406234
+      },
+      {
+        "customer_state": "RS",
+        "delivered_orders": 5344,
+        "late_rate": 0.0608158683
+      },
+      {
+        "customer_state": "MT",
+        "delivered_orders": 886,
+        "late_rate": 0.0598194131
+      },
+      {
+        "customer_state": "DF",
+        "delivered_orders": 2080,
+        "late_rate": 0.0567307692
+      },
+      {
+        "customer_state": "MG",
+        "delivered_orders": 11354,
+        "late_rate": 0.0457107627
+      },
+      {
+        "customer_state": "SP",
+        "delivered_orders": 40494,
+        "late_rate": 0.0449449301
+      },
+      {
+        "customer_state": "PR",
+        "delivered_orders": 4923,
+        "late_rate": 0.0404225066
+      }
+    ]
+  },
+  "review_impact": {
+    "title": "Review scores: late vs on time",
+    "summary": "Late orders average 2.27 stars versus 4.29 on time; 62.4% of late orders get a 1-2 star review, versus 9.2%.",
+    "rows": [
+      {
+        "delivery": "Late",
+        "orders": 6381,
+        "avg_review": 2.2718225983,
+        "share_1_2_star": 0.6235699734
+      },
+      {
+        "delivery": "On time",
+        "orders": 89443,
+        "avg_review": 4.2905891648,
+        "share_1_2_star": 0.0923157765
+      }
+    ]
+  },
+  "seller_handoff": {
+    "title": "Late rate by seller handoff",
+    "summary": "When the seller hands the parcel to the carrier after the shipping limit (9.0% of orders), 20.8% arrive late, versus 5.4% otherwise: 3.9x the risk.",
+    "rows": [
+      {
+        "seller_handoff": "Late handoff",
+        "orders": 8711,
+        "share_of_orders": 0.0902984378,
+        "late_rate": 0.2082424521
+      },
+      {
+        "seller_handoff": "On-time handoff",
+        "orders": 87758,
+        "share_of_orders": 0.9097015622,
+        "late_rate": 0.0537728754
+      }
+    ]
+  },
+  "interstate": {
+    "title": "Late rate: interstate vs same state",
+    "summary": "Interstate orders are late 8.0% of the time versus 4.5% within a state; carrier transit takes 11.9 days versus 4.8.",
+    "rows": [
+      {
+        "route": "Interstate",
+        "orders": 61769,
+        "late_rate": 0.0804772621,
+        "avg_transit_days": 11.8727253594
+      },
+      {
+        "route": "Same state",
+        "orders": 34701,
+        "late_rate": 0.0450419296,
+        "avg_transit_days": 4.8036680019
+      }
+    ]
+  },
+  "stage_durations": {
+    "title": "Where late orders lose time",
+    "summary": "The carrier leg is where late orders lose time: median transit 26.2 days versus 7.0 on time. Seller handoff is slower too (3.5 vs 2.2 days).",
+    "rows": [
+      {
+        "delivery": "Late",
+        "median_days_to_carrier": 3.5,
+        "median_transit_days": 26.2083333333,
+        "avg_days_to_carrier": 6.0586637073,
+        "avg_transit_days": 27.8879789785
+      },
+      {
+        "delivery": "On time",
+        "median_days_to_carrier": 2.1666666667,
+        "median_transit_days": 6.9583333333,
+        "avg_days_to_carrier": 3.0217321206,
+        "avg_transit_days": 7.9818361576
+      }
+    ]
+  },
+  "late_gmv": {
+    "title": "Order value in late deliveries",
+    "summary": "Late orders carried BRL 1,150,866 of order value, 7.5% of delivered GMV.",
+    "rows": [
+      {
+        "late_gmv": 1150865.6599999955,
+        "delivered_gmv": 15421082.84999905,
+        "late_share": 0.0746293675
+      }
+    ]
+  },
+  "peak_share": {
+    "title": "Late orders in peak months",
+    "summary": "Three peak months (Nov 2017, Feb 2018, Mar 2018) hold 48.3% of all late orders but only 21.6% of delivered orders.",
+    "rows": [
+      {
+        "share_of_late": 0.4833180288,
+        "share_of_orders": 0.216087903
+      }
+    ]
+  },
+  "seller_concentration": {
+    "title": "Concentration of late handoffs",
+    "summary": "83 sellers (2.8% of 2,960) account for half of all 8,711 late handoffs.",
+    "rows": [
+      {
+        "sellers": 2960,
+        "late_handoffs": 8711.0,
+        "sellers_for_half": 83
+      }
+    ]
+  },
+  "top_late_sellers": {
+    "title": "Sellers with the most late handoffs",
+    "summary": "The seller with the most late handoffs missed the shipping limit on 288 of 966 orders (29.8%).",
+    "rows": [
+      {
+        "seller_id": "7c67e1448b00f6e969d365cea6b010ab",
+        "seller_state": "SP",
+        "orders": 966,
+        "late_handoffs": 288.0,
+        "late_handoff_rate": 0.298136646,
+        "late_delivery_rate": 0.0921325052
+      },
+      {
+        "seller_id": "1025f0e2d44d7041d6cf58b6550e0bfa",
+        "seller_state": "SP",
+        "orders": 898,
+        "late_handoffs": 162.0,
+        "late_handoff_rate": 0.1804008909,
+        "late_delivery_rate": 0.0801781737
+      },
+      {
+        "seller_id": "4a3ca9315b744ce9f8e9374361493884",
+        "seller_state": "SP",
+        "orders": 1726,
+        "late_handoffs": 154.0,
+        "late_handoff_rate": 0.0892236385,
+        "late_delivery_rate": 0.0996523754
+      },
+      {
+        "seller_id": "1f50f920176fa81dab994f9023523100",
+        "seller_state": "SP",
+        "orders": 1384,
+        "late_handoffs": 150.0,
+        "late_handoff_rate": 0.1083815029,
+        "late_delivery_rate": 0.0895953757
+      },
+      {
+        "seller_id": "3d871de0142ce09b7081e2b9d1733cb1",
+        "seller_state": "SP",
+        "orders": 1052,
+        "late_handoffs": 137.0,
+        "late_handoff_rate": 0.1302281369,
+        "late_delivery_rate": 0.0551330798
+      },
+      {
+        "seller_id": "06a2c3af7b3aee5d69171b0e14f0ee87",
+        "seller_state": "MA",
+        "orders": 388,
+        "late_handoffs": 121.0,
+        "late_handoff_rate": 0.3118556701,
+        "late_delivery_rate": 0.1907216495
+      },
+      {
+        "seller_id": "88460e8ebdecbfecb5f9601833981930",
+        "seller_state": "PR",
+        "orders": 238,
+        "late_handoffs": 117.0,
+        "late_handoff_rate": 0.4915966387,
+        "late_delivery_rate": 0.1764705882
+      },
+      {
+        "seller_id": "53e4c6e0f4312d4d2107a8c9cddf45cd",
+        "seller_state": "SP",
+        "orders": 453,
+        "late_handoffs": 94.0,
+        "late_handoff_rate": 0.2075055188,
+        "late_delivery_rate": 0.0485651214
+      },
+      {
+        "seller_id": "8160255418d5aaa7dbdc9f4c64ebda44",
+        "seller_state": "SP",
+        "orders": 368,
+        "late_handoffs": 90.0,
+        "late_handoff_rate": 0.2445652174,
+        "late_delivery_rate": 0.1385869565
+      },
+      {
+        "seller_id": "92eb0f42c21942b6552362b9b114707d",
+        "seller_state": "SP",
+        "orders": 330,
+        "late_handoffs": 87.0,
+        "late_handoff_rate": 0.2636363636,
+        "late_delivery_rate": 0.0484848485
+      },
+      {
+        "seller_id": "ea8482cd71df3c1969d7b9473ff13abc",
+        "seller_state": "SP",
+        "orders": 1122,
+        "late_handoffs": 87.0,
+        "late_handoff_rate": 0.077540107,
+        "late_delivery_rate": 0.0855614973
+      },
+      {
+        "seller_id": "7d13fca15225358621be4086e1eb0964",
+        "seller_state": "SP",
+        "orders": 555,
+        "late_handoffs": 83.0,
+        "late_handoff_rate": 0.1495495495,
+        "late_delivery_rate": 0.1153153153
+      },
+      {
+        "seller_id": "4c2b230173bb36f9b240f2b8ac11786e",
+        "seller_state": "SP",
+        "orders": 255,
+        "late_handoffs": 82.0,
+        "late_handoff_rate": 0.3215686275,
+        "late_delivery_rate": 0.0941176471
+      },
+      {
+        "seller_id": "37515688008a7a40ac93e3b2e4ab203f",
+        "seller_state": "SP",
+        "orders": 222,
+        "late_handoffs": 80.0,
+        "late_handoff_rate": 0.3603603604,
+        "late_delivery_rate": 0.0810810811
+      },
+      {
+        "seller_id": "7aa4334be125fcdd2ba64b3180029f14",
+        "seller_state": "SP",
+        "orders": 212,
+        "late_handoffs": 77.0,
+        "late_handoff_rate": 0.3632075472,
+        "late_delivery_rate": 0.1179245283
+      }
+    ]
+  },
+  "estimate_padding": {
+    "title": "Promised vs actual delivery time",
+    "summary": "Customers are promised 24.4 days on average, but the median order arrives in 10.2 days, 11.9 days before the promised date on average.",
+    "rows": [
+      {
+        "avg_promised_days": 24.3727376386,
+        "median_actual_days": 10.2083333333,
+        "avg_days_vs_estimate": -11.8758888774
+      }
+    ]
+  },
+  "late_rate_by_category": {
+    "title": "Late rate by product category",
+    "summary": "Categories with the highest late rate (min. 1,000 orders): baby 8.2%, office_furniture 8.1%, electronics 7.7%.",
+    "rows": [
+      {
+        "category": "baby",
+        "delivered_orders": 2763,
+        "late_rate": 0.0817951502
+      },
+      {
+        "category": "office_furniture",
+        "delivered_orders": 1246,
+        "late_rate": 0.08105939
+      },
+      {
+        "category": "electronics",
+        "delivered_orders": 2507,
+        "late_rate": 0.0765855604
+      },
+      {
+        "category": "health_beauty",
+        "delivered_orders": 8608,
+        "late_rate": 0.0753949814
+      },
+      {
+        "category": "bed_bath_table",
+        "delivered_orders": 9167,
+        "late_rate": 0.0751609032
+      },
+      {
+        "category": "watches_gifts",
+        "delivered_orders": 5470,
+        "late_rate": 0.0742230347
+      },
+      {
+        "category": "auto",
+        "delivered_orders": 3792,
+        "late_rate": 0.0733122363
+      },
+      {
+        "category": "furniture_decor",
+        "delivered_orders": 6213,
+        "late_rate": 0.071784967
+      },
+      {
+        "category": "telephony",
+        "delivered_orders": 4076,
+        "late_rate": 0.0713935231
+      },
+      {
+        "category": "unknown",
+        "delivered_orders": 1359,
+        "late_rate": 0.0713760118
+      },
+      {
+        "category": "sports_leisure",
+        "delivered_orders": 7490,
+        "late_rate": 0.0660881175
+      },
+      {
+        "category": "garden_tools",
+        "delivered_orders": 3414,
+        "late_rate": 0.0659050967
+      },
+      {
+        "category": "stationery",
+        "delivered_orders": 2247,
+        "late_rate": 0.0658655986
+      },
+      {
+        "category": "perfumery",
+        "delivered_orders": 3073,
+        "late_rate": 0.0657338106
+      },
+      {
+        "category": "computers_accessories",
+        "delivered_orders": 6500,
+        "late_rate": 0.0641538462
+      },
+      {
+        "category": "toys",
+        "delivered_orders": 3778,
+        "late_rate": 0.0637903653
+      },
+      {
+        "category": "consoles_games",
+        "delivered_orders": 1014,
+        "late_rate": 0.0611439842
+      },
+      {
+        "category": "cool_stuff",
+        "delivered_orders": 3530,
+        "late_rate": 0.0592067989
+      },
+      {
+        "category": "fashion_bags_accessories",
+        "delivered_orders": 1810,
+        "late_rate": 0.055801105
+      },
+      {
+        "category": "housewares",
+        "delivered_orders": 5688,
+        "late_rate": 0.0539732771
+      },
+      {
+        "category": "pet_shop",
+        "delivered_orders": 1682,
+        "late_rate": 0.0511296076
+      },
+      {
+        "category": "luggage_accessories",
+        "delivered_orders": 1008,
+        "late_rate": 0.0426587302
+      }
+    ]
+  },
+  "handoff_counterfactual": {
+    "title": "Late orders linked to late handoffs",
+    "summary": "If late-handoff orders arrived late only as often as on-time-handoff orders on the same kind of route, about 1,347 late orders (20.6%) would not have been late. This is an association-based upper bound, not a causal estimate.",
+    "rows": [
+      {
+        "avoidable_late_orders": 1347.0,
+        "share_of_late": 0.2061479801
+      }
+    ]
+  },
+  "orders_by_status": {
+    "title": "Orders by status",
+    "summary": "99,441 orders in total; 96,478 (97.0%) were delivered.",
+    "rows": [
+      {
+        "order_status": "delivered",
+        "orders": 96478
+      },
+      {
+        "order_status": "shipped",
+        "orders": 1107
+      },
+      {
+        "order_status": "canceled",
+        "orders": 625
+      },
+      {
+        "order_status": "unavailable",
+        "orders": 609
+      },
+      {
+        "order_status": "invoiced",
+        "orders": 314
+      },
+      {
+        "order_status": "processing",
+        "orders": 301
+      },
+      {
+        "order_status": "created",
+        "orders": 5
+      },
+      {
+        "order_status": "approved",
+        "orders": 2
+      }
+    ]
+  }
+}

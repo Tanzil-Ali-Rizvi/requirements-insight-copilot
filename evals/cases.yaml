@@ -1,0 +1,54 @@
+# Copilot evaluation set. Each case states the route it must take and either the governed
+# metric it must use or the document (and section) it must cite in its top-3 sources.
+# Questions are written as stakeholders would ask them, not copied from the metric catalogue.
+
+- {id: d01, q: "What share of our delivered orders arrive late?", route: data, metric: late_rate_overall}
+- {id: d02, q: "How many orders were delivered after the promised date?", route: data, metric: late_rate_overall}
+- {id: d03, q: "Show me the late delivery trend by month", route: data, metric: late_rate_by_month}
+- {id: d04, q: "When during the year do late deliveries get worse?", route: data, metric: late_rate_by_month}
+- {id: d05, q: "Which regions get the most late deliveries?", route: data, metric: late_rate_by_region}
+- {id: d06, q: "Is the Northeast worse than the South for delays?", route: data, metric: late_rate_by_region}
+- {id: d07, q: "Which states have the highest late rate?", route: data, metric: late_rate_by_state}
+- {id: d08, q: "Is Maranhao or Bahia worse for late orders?", route: data, metric: late_rate_by_state}
+- {id: d09, q: "How do late deliveries affect review scores?", route: data, metric: review_impact}
+- {id: d10, q: "Do customers give fewer stars when the parcel is late?", route: data, metric: review_impact}
+- {id: d11, q: "Do late seller handoffs cause late deliveries?", route: data, metric: seller_handoff}
+- {id: d12, q: "What is the late rate when sellers ship after the shipping limit?", route: data, metric: seller_handoff}
+- {id: d13, q: "Are interstate orders late more often?", route: data, metric: interstate}
+- {id: d14, q: "Does shipping across states take longer in transit?", route: data, metric: interstate}
+- {id: d15, q: "Where do late orders lose time, seller or carrier?", route: data, metric: stage_durations}
+- {id: d16, q: "Which fulfilment stage is the bottleneck for late orders?", route: data, metric: stage_durations}
+- {id: d17, q: "How much revenue was in late orders?", route: data, metric: late_gmv}
+- {id: d18, q: "What GMV is at risk from late delivery?", route: data, metric: late_gmv}
+- {id: d19, q: "What share of late orders happened in peak months?", route: data, metric: peak_share}
+- {id: d20, q: "How concentrated are late handoffs among sellers?", route: data, metric: seller_concentration}
+- {id: d21, q: "Which sellers miss the shipping limit most often?", route: data, metric: top_late_sellers}
+- {id: d22, q: "List the worst sellers for late handoffs", route: data, metric: top_late_sellers}
+- {id: d23, q: "How accurate are our promised delivery dates?", route: data, metric: estimate_padding}
+- {id: d24, q: "How many days early do orders arrive versus the estimate?", route: data, metric: estimate_padding}
+- {id: d25, q: "Which product categories are delivered late most often?", route: data, metric: late_rate_by_category}
+- {id: d26, q: "How many late orders could we avoid if sellers handed off on time?", route: data, metric: handoff_counterfactual}
+- {id: d27, q: "How many orders are there by status?", route: data, metric: orders_by_status}
+- {id: d28, q: "How many orders were cancelled?", route: data, metric: orders_by_status}
+
+- {id: k01, q: "What is the seller handoff SLA?", route: docs, doc: policies/seller_handling_policy.md, section: Handoff SLA}
+- {id: k02, q: "When does a seller go on the watchlist?", route: docs, doc: policies/seller_handling_policy.md, section: Watchlist and escalation}
+- {id: k03, q: "Which situations are exempt from late handoff penalties?", route: docs, doc: policies/seller_handling_policy.md, section: Exemptions}
+- {id: k04, q: "Who approves changes to the delivery estimate model?", route: docs, doc: BRD.md}
+- {id: k05, q: "What is out of scope for the on-time delivery programme?", route: docs, doc: BRD.md, section: 4. Scope}
+- {id: k06, q: "What are the objectives and targets of the programme?", route: docs, doc: BRD.md, section: 3. Objectives and success metrics}
+- {id: k07, q: "What are the acceptance criteria for the handoff alert?", route: docs, doc: user_stories.md, section: US-03 Handoff alert before the shipping limit (FR-02)}
+- {id: k08, q: "Which user story covers the running-late notice to customers?", route: docs, doc: user_stories.md, section: "US-05 Proactive \"running late\" notice (FR-03)"}
+- {id: k09, q: "Do customers get a refund when delivery is very late?", route: docs, doc: policies/delivery_promise_policy.md, section: Compensation}
+- {id: k10, q: "How is the promised delivery date set?", route: docs, doc: policies/delivery_promise_policy.md}
+- {id: k11, q: "What are the risks of the programme and their mitigation?", route: docs, doc: BRD.md, section: 11. Risks}
+- {id: k12, q: "What is functional requirement FR-02?", route: docs, doc: BRD.md, section: 8. Functional requirements}
+- {id: k13, q: "What are the pain points in the as-is process?", route: docs, doc: process/as_is.md}
+- {id: k14, q: "What do you recommend we change?", route: docs, doc: findings.md, section: Recommendations}
+- {id: k15, q: "Which stakeholders are responsible for customer notifications?", route: docs, doc: BRD.md, section: 5. Stakeholders (RACI)}
+- {id: k16, q: "What non-functional requirements does the copilot have?", route: docs, doc: BRD.md, section: 9. Non-functional requirements}
+- {id: k17, q: "What happens to a seller who stays above the threshold?", route: docs, doc: policies/seller_handling_policy.md, section: Watchlist and escalation}
+- {id: k18, q: "What changes in the to-be process?", route: docs, doc: process/to_be.md}
+
+- {id: b01, q: "Are we meeting the late rate target?", route: both, metric: late_rate_overall, doc: BRD.md}
+- {id: b02, q: "Are late seller handoffs on track against the target?", route: both, metric: seller_handoff, doc: BRD.md}

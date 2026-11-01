@@ -1,0 +1,52 @@
+[
+  {
+    "test_orders": 52777.0,
+    "olist_late_rate": 0.07726850711484169,
+    "olist_promised_days": 23.438126456600415,
+    "route_late_rate": 0.1408189173314133,
+    "route_promised_days": 18.818595221403264,
+    "load_late_rate": 0.10555734505561135,
+    "load_promised_days": 20.718324270041876,
+    "percentile": 0.85
+  },
+  {
+    "test_orders": 52777.0,
+    "olist_late_rate": 0.07726850711484169,
+    "olist_promised_days": 23.438126456600415,
+    "route_late_rate": 0.11633855656820206,
+    "route_promised_days": 20.184038501620023,
+    "load_late_rate": 0.08505599029880441,
+    "load_promised_days": 22.254751122648123,
+    "percentile": 0.88
+  },
+  {
+    "test_orders": 52777.0,
+    "olist_late_rate": 0.07726850711484169,
+    "olist_promised_days": 23.438126456600415,
+    "route_late_rate": 0.09848987248233132,
+    "route_promised_days": 21.43284006290619,
+    "load_late_rate": 0.07057998749455255,
+    "load_promised_days": 23.625670273035603,
+    "percentile": 0.9
+  },
+  {
+    "test_orders": 52777.0,
+    "olist_late_rate": 0.07726850711484169,
+    "olist_promised_days": 23.438126456600415,
+    "route_late_rate": 0.08185383784603141,
+    "route_promised_days": 22.928358944237072,
+    "load_late_rate": 0.05707031472042746,
+    "load_promised_days": 25.319229967599522,
+    "percentile": 0.92
+  },
+  {
+    "test_orders": 52777.0,
+    "olist_late_rate": 0.07726850711484169,
+    "olist_promised_days": 23.438126456600415,
+    "route_late_rate": 0.05356499990526176,
+    "route_promised_days": 26.3285522102431,
+    "load_late_rate": 0.03529946757110105,
+    "load_promised_days": 29.109043712223126,
+    "percentile": 0.95
+  }
+]
