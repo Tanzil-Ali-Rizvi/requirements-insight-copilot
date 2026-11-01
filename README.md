@@ -4,8 +4,11 @@
 ![Python](https://img.shields.io/badge/python-3.11%20|%203.12%20|%203.13-blue)
 ![SQL](https://img.shields.io/badge/SQL-DuckDB-FFF000)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tanzil-requirements-copilot.streamlit.app)
 
 **Why do 1 in 15 marketplace orders arrive late, and what system change fixes it?** A business-systems analysis of 96,470 delivered orders from Olist, a Brazilian e-commerce marketplace, turned into a requirements document and an AI copilot that answers stakeholder questions from those requirements and from the data, always showing its source.
+
+**▶ [Try the live demo](https://tanzil-requirements-copilot.streamlit.app)**: no sign-up or API key needed.
 
 ![Dashboard](docs/img/dashboard.png)
 
